@@ -1,0 +1,19 @@
+{
+	"node": "n8n-nodes-printandmailcompany.printAndMailCompanyTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"alias": ["letter", "post", "mail", "posted"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/Printandmailcompany/n8n-nodes-printandmailcompany#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/Printandmailcompany/n8n-nodes-printandmailcompany#readme"
+			}
+		]
+	}
+}

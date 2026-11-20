@@ -1,0 +1,61 @@
+{
+	"name": "n8n-nodes-printandmailcompany",
+	"version": "0.1.0",
+	"description": "Send PDFs and typed letters by post from n8n with Print and Mail Company, and start workflows when a letter has been posted.",
+	"license": "MIT",
+	"homepage": "https://github.com/Printandmailcompany/n8n-nodes-printandmailcompany#readme",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"print and mail",
+		"letters",
+		"post",
+		"mail"
+	],
+	"author": {
+		"name": "Print and Mail Company",
+		"email": "support@printandmailcompany.com",
+		"url": "https://printandmailcompany.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Printandmailcompany/n8n-nodes-printandmailcompany.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Printandmailcompany/n8n-nodes-printandmailcompany/issues"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"test": "node --test --test-reporter=spec \"test/*.test.js\"",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/PrintAndMailCompanyApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/PrintAndMailCompany/PrintAndMailCompany.node.js",
+			"dist/nodes/PrintAndMailCompany/PrintAndMailCompanyTrigger.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "0.57.4",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "21.1.2",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
