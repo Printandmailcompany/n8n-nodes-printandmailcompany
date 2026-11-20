@@ -185,6 +185,7 @@ The credential has a hidden **Base URL** field that is always `https://printandm
 See [CHANGELOG.md](CHANGELOG.md).
 
 - **0.1.0**: first version: Send, Write, Get and Get Many letters, and the Letter Posted trigger.
+- **0.1.1**: published with npm trusted publishing. The nodes are unchanged.
 
 ## License
 

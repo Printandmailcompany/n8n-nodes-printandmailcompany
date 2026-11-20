@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Published with npm trusted publishing. The nodes are unchanged.
+
 ## 0.1.0
 
 - Print and Mail Company node, Letter resource: Send (a PDF from a binary field), Write (a letter from your text), Get and Get Many.

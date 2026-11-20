@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-printandmailcompany",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Send PDFs and typed letters by post from n8n with Print and Mail Company, and start workflows when a letter has been posted.",
 	"license": "MIT",
 	"homepage": "https://github.com/Printandmailcompany/n8n-nodes-printandmailcompany#readme",
